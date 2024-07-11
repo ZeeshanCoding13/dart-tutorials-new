@@ -29,11 +29,15 @@
 //   print("$name has started the race having a distance of $distance meters");
 // }
 
+import 'tutorial_5_error _handling.dart';
+
 void main(List<String> args) {
-  var myName = () {
-    print("My name is Zaman");
-  };
-  myName();
+//
+  var calculation = Calculation();
+  calculation.totalMarks = 400;
+  calculation.obtainedMarks = 345;
+  calculation.calculatePercentage();
+  // myName();
 }
 // Fat Arrow or lambda function, or arrow function
 // we use these functions when we only return one experesion
